@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Terms and Conditions — Spendly{% endblock %}
+
+{% block content %}
+<section class="terms-container" style="max-width: 800px; margin: 4rem auto; padding: 0 2rem; line-height: 1.6; color: var(--text-color);">
+    <h1 style="font-family: 'DM Serif Display', serif; margin-bottom: 2rem;">Terms and Conditions</h1>
+    <p>Last Updated: October 14, 2026</p>
+
+    <div class="terms-section" style="margin-top: 2rem;">
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing or using Spendly, you agree to be bound by these Terms and Conditions and our Privacy Policy. If you do not agree to these terms, please do not use our service.</p>
+    </div>
+
+    <div class="terms-section" style="margin-top: 2rem;">
+        <h2>2. Use of Service</h2>
+        <p>Spendly provides a personal expense tracking tool. You agree to use the service only for lawful purposes and in a manner that does not infringe upon the rights of others or restrict their use of the service.</p>
+    </div>
+
+    <div class="terms-section" style="margin-top: 2rem;">
+        <h2>3. User Data</h2>
+        <p>You are responsible for the accuracy and legality of the data you input into the application. Spendly strives to keep your financial data secure, but you acknowledge that no method of electronic storage is 100% secure.</p>
+    </div>
+
+    <div class="terms-section" style="margin-top: 2rem;">
+        <h2>4. Limitations of Liability</h2>
+        <p>Spendly is provided "as is" without any warranties. In no event shall Spendly be liable for any financial losses, data loss, or damages arising from your use of the service.</p>
+    </div>
+
+    <div class="terms-section" style="margin-top: 2rem;">
+        <h2>5. Changes to Terms</h2>
+        <p>We reserve the right to modify these terms at any time. We will notify users of any significant changes by posting a notice on our home page or via email.</p>
+    </div>
+
+    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #ddd;">
+        <a href="{{ url_for('landing') }}" style="text-decoration: none; color: var(--accent-color); font-weight: 500;">← Back to Home</a>
+    </div>
+</section>
+{% endblock %}
